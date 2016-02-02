@@ -3,10 +3,12 @@ gems:
     - jemoji
     - jekyll-paginate
 
-paginate: 5
-
 url: 'http://178.62.15.21'
 baseurl: ''
+permalink: /:year/:month/:day/:title/
+
+paginate: 5
+paginate_path: "/page/:num"
 
 # Site config
 title: 'Jeroen Van den Bossche'
