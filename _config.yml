@@ -3,7 +3,7 @@ gems:
     - jemoji
     - jekyll-paginate
 
-url: 'http://178.62.15.21'
+url: 'http://vanbosse.be'
 baseurl: ''
 permalink: /:year/:month/:day/:title/
 
