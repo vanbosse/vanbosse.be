@@ -1,59 +1,53 @@
-# Build settings
+# Build config
 gems:
-  - jemoji
-  - jekyll-paginate
+    - jemoji
+    - jekyll-paginate
 
-# Site settings
-title: "Mediator"
-description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+paginate: 5
 
-email: a-mail@mail.mail
-#blog logo
-logo: "/assets/images/df_logo.jpg"
-# blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+url: 'http://178.62.15.21'
+baseurl: ''
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
-author_image: "/assets/images/author.jpg"
+# Site config
+title: 'Jeroen Van den Bossche'
+description: >
+    Web developer, soccer enthusiast and cyclist in his spare time.
+    Blogging about whatever comes to mind worth blogging about.
+name: 'Jeroen Van den Bossche'
+author: 'Jeroen Van den Bossche'
+email: vanbosse.jeroen@gmail.com
+author_image: '/assets/images/author.png'
+logo: '/assets/images/author.png'
+cover: '/assets/images/background.jpg'
 
-paginate:	5
-
-url: "http://myblog.***.***" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@dirkfabisch'
-
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
-
-# social icons and sharing options
+# Social
+twitter_handle: '@vanbosse'
+disqus: vanbosse
 social:
-  - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+    - icon: twitter
+      url: https://twitter.com/vanbosse
+      desc: Follow me on twitter
+      share_url: http://twitter.com/share
+      share_title: ?text=
+      share_link: '&amp;url='
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+    - icon: github
+      url: https://github.com/vanbosse
+      desc: Follow me on github
+      share_url:
+      share_title:
+      share_link:
 
-  - icon:	github
-    url:	https://github.com/dirkfabisch
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+    - icon: instagram
+      url: https://instagram.com/vanbosse
+      desc: Look through my Instagram photos
+      share_url:
+      share_title:
+      share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+    - icon: bicycle
+      url: https://www.strava.com/athletes/276614
+      desc: See my rides on Strava
+      share_url:
+      share_title:
+      share_link:
