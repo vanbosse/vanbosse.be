@@ -22,6 +22,10 @@ author_image: '/assets/images/author.png'
 logo: '/assets/images/author.png'
 cover: '/assets/images/background.jpg'
 
+# Google Analytics
+ga:
+    tracking: UA-32447309-1
+
 # Social
 twitter_handle: '@vanbosse'
 disqus: vanbosse
